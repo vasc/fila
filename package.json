@@ -1,0 +1,14 @@
+{
+  "name": "fila",
+  "description": "Queue for asynchronous tasks",
+  "keywords": ["queue", "async"],
+  "version": "0.0.1",
+  "author": "Vasco Fernandes <vasco.box@gmail.com> (http://vascofernandes.com)",
+  "repository": { "type": "git", "url": "http://github.com/vasc/fila.git" },
+  "dependencies": {},
+  "devDependencies": { "vows": ">= 0.6.0" },
+  "main": "./lib/fila",
+  "engines": { "node": ">= 0.6.0" },
+  "scripts": {  "test": "vows test/* --spec",
+                "prepublish": "coffee -c lib/*.coffee test/*.coffee" }
+}
